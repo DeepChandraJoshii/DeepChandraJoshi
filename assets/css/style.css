@@ -7,6 +7,10 @@
   font-family: poppins, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 li {
   list-style: none;
 }
@@ -18,7 +22,7 @@ a {
 header {
   width: 100vw;
   height: 100vh;
-  background: url(/assets/images/website_hero.jpg);
+  background: url(https://i.postimg.cc/dQ7VzyyD/website-hero.jpg);
   background-size: cover;
   background-position: center;
   object-fit: cover;
