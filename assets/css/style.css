@@ -18,7 +18,7 @@ a {
 header {
   width: 100vw;
   height: 100vh;
-  background: url(assets/images/bakground7.jpg);
+  background: url(/assets/images/website_hero.jpg);
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -420,7 +420,7 @@ footer .footerdata {
 
 footer a {
   text-decoration: none;
-  color: var(--button);
+  color: white;
   cursor: pointer;
 }
 
@@ -516,6 +516,11 @@ footer a {
     gap: 30px;
   }
 
+  footer h1,
+  .footerdata {
+    color: rgb(226, 204, 204);
+  }
+
   footer .footerdata {
     display: flex;
     flex-direction: column;
@@ -527,7 +532,6 @@ footer a {
 
   footer a {
     text-decoration: none;
-    color: var(--button);
     cursor: pointer;
   }
 }
